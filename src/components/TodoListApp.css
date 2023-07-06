@@ -1,0 +1,114 @@
+.todo-app {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .todo-app h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .input-task {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .add-btn {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .filter-btns button {
+    padding: 8px 12px;
+    font-size: 14px;
+    background-color: transparent;
+    color: #555;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .filter-btns button.active {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
+  .todo-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .todo-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  .todo-item:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .task-text {
+    flex-grow: 1;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    transition: text-decoration 0.3s ease;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    color: #999;
+  }
+  
+  .remove-btn,
+  .complete-btn {
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: transparent;
+    color: #555;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .remove-btn:hover,
+  .complete-btn:hover {
+    background-color: #f44336;
+    color: #fff;
+  }
+  
+  .complete-btn.completed-btn {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
+  .complete-btn.completed-btn:hover {
+    background-color: #45a049;
+  }
+  
